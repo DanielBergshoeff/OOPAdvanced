@@ -7,7 +7,7 @@ Teacher::Teacher()
 }
 
 Teacher::Teacher(std::string teacherFirstName, std::string teacherLastName)
-	:firstName(teacherFirstName), lastName(teacherLastName)
+	:Person(teacherFirstName, teacherLastName)
 {
 }
 

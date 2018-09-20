@@ -12,7 +12,7 @@ using namespace std;
 
 //Print relevant module information
 void ShowModuleInformation(vector<Module*> tempModules) {
-	vector<Module*>::iterator i = tempModules.begin();
+	auto i = tempModules.begin();
 	while (i != tempModules.end()) {
 		cout << (*i)->getInformation();
 		i++;
@@ -21,7 +21,7 @@ void ShowModuleInformation(vector<Module*> tempModules) {
 
 //Print EC count per student
 void ShowStudentECCount(vector<Student*> tempStudents) {
-	vector<Student*>::iterator i = tempStudents.begin();
+	auto i = tempStudents.begin();
 	while (i != tempStudents.end()) {
 		cout << (*i)->firstName + " " + (*i)->lastName + " will receive " + std::to_string((*i)->getECcount()) + " ECs\n";
 		i++;

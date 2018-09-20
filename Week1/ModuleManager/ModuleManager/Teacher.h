@@ -1,10 +1,9 @@
 #pragma once
-class Teacher
+#include "Person.h"
+
+class Teacher : public Person
 {
 public:
-	std::string firstName;
-	std::string lastName;
-
 	Teacher();
 	Teacher(std::string teacherFirstName, std::string teacherLastName);
 	~Teacher();

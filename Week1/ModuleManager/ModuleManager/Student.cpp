@@ -7,7 +7,7 @@ Student::Student()
 }
 
 Student::Student(std::string studentFirstName, std::string studentLastName)
-	:firstName(studentFirstName), lastName(studentLastName)
+	:Person(studentFirstName, studentLastName)
 {
 	moduleCount = 0;
 }

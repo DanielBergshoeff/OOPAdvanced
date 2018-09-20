@@ -1,20 +1,20 @@
 #pragma once
 #include "Module.h"
+#include "Person.h"
 
 class Module;
 
-class Student
+class Student : public Person
 {
 public:
-	std::string firstName;
-	std::string lastName;
+	using Person::Person;
 
 	bool addModule(Module* m);
 
 	int getECcount();
 
+	Student(std::string personFirstName, std::string personLastName);
 	Student();
-	Student(std::string studentFirstName, std::string studentLastName);
 	~Student();
 private:
 	int moduleCount;
