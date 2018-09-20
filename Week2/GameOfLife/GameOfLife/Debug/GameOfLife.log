@@ -1,0 +1,5 @@
+﻿  GameManager.cpp
+c:\users\daniel\documents\github\oopadvanced\week2\gameoflife\gameoflife\gamemanager.cpp(54): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\daniel\documents\github\oopadvanced\week2\gameoflife\gameoflife\gamemanager.cpp(108): warning C4018: '<': signed/unsigned mismatch
+  GameOfLife.vcxproj -> C:\Users\Daniel\Documents\GitHub\OOPAdvanced\Week2\GameOfLife\Debug\GameOfLife.exe
+  GameOfLife.vcxproj -> C:\Users\Daniel\Documents\GitHub\OOPAdvanced\Week2\GameOfLife\Debug\GameOfLife.pdb (Partial PDB)
