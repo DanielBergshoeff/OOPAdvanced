@@ -1,3 +1,28 @@
 ﻿  Algorithms.cpp
-  Algorithms.vcxproj -> C:\Users\Daniel\Documents\GitHub\OOPAdvanced\Week4\Algorithms\Debug\Algorithms.exe
-  Algorithms.vcxproj -> C:\Users\Daniel\Documents\GitHub\OOPAdvanced\Week4\Algorithms\Debug\Algorithms.pdb (Partial PDB)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(2085): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  d:\daniel\github\oopadvanced\week4\algorithms\algorithms\algorithms.cpp(70): note: see reference to function template instantiation '_FwdIt std::remove_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl *)(int)>(_FwdIt,const _FwdIt,_Pr)' being compiled
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Ty=double,
+              _Pr=bool (__cdecl *)(int)
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(174): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(2079): note: see reference to function template instantiation '_InIt *std::find_if<double*,bool(__cdecl *)(int)>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=double *,
+              _Pr=bool (__cdecl *)(int)
+          ]
+  d:\daniel\github\oopadvanced\week4\algorithms\algorithms\algorithms.cpp(70): note: see reference to function template instantiation '_FwdIt std::remove_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl *)(int)>(_FwdIt,const _FwdIt,_Pr)' being compiled
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Ty=double,
+              _Pr=bool (__cdecl *)(int)
+          ]
+  Algorithms.vcxproj -> D:\Daniel\Github\OOPAdvanced\Week4\Algorithms\Debug\Algorithms.exe
